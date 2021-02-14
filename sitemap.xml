@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/posts/62307/</loc>
+    <loc>https://www.lijm.cn/posts/62307/</loc>
     
     <lastmod>2021-02-14</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/posts/10811/</loc>
+    <loc>https://www.lijm.cn/posts/10811/</loc>
     
     <lastmod>2021-02-14</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/posts/1270/</loc>
+    <loc>https://www.lijm.cn/posts/1270/</loc>
     
     <lastmod>2021-02-14</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/posts/31512/</loc>
+    <loc>https://www.lijm.cn/posts/31512/</loc>
     
     <lastmod>2021-02-14</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>https://www.lijm.cn/categories/index.html</loc>
     
     <lastmod>2021-02-14</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://www.lijm.cn/tags/index.html</loc>
     
     <lastmod>2021-02-14</lastmod>
     
   </url>
   
   <url>
-    <loc>http://example.com/404/index.html</loc>
+    <loc>https://www.lijm.cn/404/index.html</loc>
     
     <lastmod>2021-02-14</lastmod>
     
@@ -52,7 +52,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://www.lijm.cn/</loc>
     <lastmod>2021-02-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -62,7 +62,7 @@
 
   
   <url>
-    <loc>http://example.com/categories/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/</loc>
+    <loc>https://www.lijm.cn/categories/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/</loc>
     <lastmod>2021-02-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
