@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hexo 的指令</title>
+    <url>/posts/1270/</url>
+    <content><![CDATA[<p><em>本篇主要把 Hexo 的指令记录及翻译。</em></p>
+<a id="more"></a>
+<hr>
+<h1 id="Hexo-的入门"><a href="#Hexo-的入门" class="headerlink" title="Hexo 的入门"></a>Hexo 的入门</h1><h2 id="Hexo参数"><a href="#Hexo参数" class="headerlink" title="Hexo参数"></a>Hexo参数</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo</span><br></pre></td></tr></table></figure>
+<p>此时可见返回代码：</p>
+<p><strong>Commands:</strong>    主要功能<br>  <strong>clean</strong>     清除缓存<br>  <strong>config</strong>    获取配置<br>  <strong>deploy</strong>    部署网站<br>  <strong>generate</strong>  生成静态文件<br>  <strong>help</strong>      获取命令帮助<br>  <strong>init</strong>      建立新的Folder<br>  <strong>list</strong>      列出网站信息<br>  <strong>migrate</strong>   迁移站点，从其他系统迁移到Hexov<br>  <strong>new</strong>       新建文章<br>  <strong>publish</strong>   将草稿帖子发布<br>  <strong>render</strong>    使用渲染器插件渲染文件。<br>  <strong>server</strong>    Localhost<br>  <strong>version</strong>   显示版本信息<br>  <strong>Global Options:</strong>    全局选项<br>  <strong>–config</strong>  指定配置文件来替代”config.yml”<br>  <strong>–cwd</strong>     指定 CWD<br>  <strong>–debug</strong>   在终端中显示所有详细消息<br>  <strong>–draft</strong>   显示草稿<br>  <strong>–safe</strong>    （安全模式）禁用所有插件和脚本<br>  <strong>–silent</strong>  在控制台上隐藏输出</p>
+<h2 id="克隆-NexT-主题"><a href="#克隆-NexT-主题" class="headerlink" title="克隆 NexT 主题"></a>克隆 NexT 主题</h2><p>NexT：<em><a href="http://theme-next.iissnan.com/">http://theme-next.iissnan.com/</a></em></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Markdown 基本语法</title>
+    <url>/posts/10811/</url>
+    <content><![CDATA[<p><em>本篇文章主要面向Markdown的入门用户，里面包含所有的基础语句规则。</em></p>
+<a id="more"></a>    
+<hr>
+<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><pre><code># 这是 H1
+
+## 这是 H2
+
+###### 这是 H6
+</code></pre>
+<h3 id="区块引用"><a href="#区块引用" class="headerlink" title="区块引用"></a>区块引用</h3><pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+</code></pre>
+<blockquote>
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,</p>
+</blockquote>
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>==无序列表==使用<strong>星号、加号或是减号</strong>作为列表标记</p>
+<pre><code>*   Red
+*   Green
+*   Blue
+
++   Red
++   Green
++   Blue
+
+-   Red
+-   Green
+-   Blue
+</code></pre>
+<ul>
+<li>  Red</li>
+<li>  Green</li>
+<li>  Blue</li>
+</ul>
+<p>==有序列表==</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1.  Bird</span><br><span class="line">2.  McHale</span><br><span class="line">3.  Parish</span><br></pre></td></tr></table></figure>
+<h3 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h3><p>要在 Markdown 中建立代码区块很简单，只要简单地缩进<strong>4 个空格或是 1 个制表符</strong>就可以，例如，下面的输入：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">这是一个普通段落：</span><br><span class="line"></span><br><span class="line">    这是一个代码区块。</span><br></pre></td></tr></table></figure>
+<p>或者通过  ```  。</p>
+<h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">* * *</span><br><span class="line"></span><br><span class="line">***</span><br><span class="line"></span><br><span class="line">*****</span><br><span class="line"></span><br><span class="line">- - -</span><br><span class="line"></span><br><span class="line">---------------------------------------</span><br></pre></td></tr></table></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>关于本站点建设所使用的第三方代码</title>
+    <url>/posts/31512/</url>
+    <content><![CDATA[<p><em>本文收录截止目前本站使用的所有第三方插件。</em></p>
+<a id="more"></a>
+<hr>
+<p>NexT 官方说明：<a href="http://theme-next.iissnan.com/theme-settings.html">http://theme-next.iissnan.com/theme-settings.html</a></p>
+<h3 id="右上标签√"><a href="#右上标签√" class="headerlink" title="右上标签√"></a>右上标签√</h3><pre><code>menu:
+</code></pre>
+<h3 id="搜索服务√"><a href="#搜索服务√" class="headerlink" title="搜索服务√"></a>搜索服务√</h3><pre><code>$ npm install hexo-generator-searchdb --save
+</code></pre>
+<p>Hexo 配置文件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Configration for Theme-Next</span><br><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 20</span><br></pre></td></tr></table></figure>
+<p>NexT 配置文件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line">  # if auto, trigger search by changing input</span><br><span class="line">  # if manual, trigger search by pressing enter key or search button</span><br><span class="line">  trigger: auto</span><br></pre></td></tr></table></figure>
+<h3 id="字体√"><a href="#字体√" class="headerlink" title="字体√"></a>字体√</h3><pre><code>font:
+</code></pre>
+<h3 id="网站地图"><a href="#网站地图" class="headerlink" title="网站地图"></a>网站地图</h3><h3 id="ICO"><a href="#ICO" class="headerlink" title="ICO"></a>ICO</h3><p><a href="https://fontawesome.dashgame.com/">https://fontawesome.dashgame.com/</a></p>
+<h3 id="侧边栏头像"><a href="#侧边栏头像" class="headerlink" title="侧边栏头像"></a>侧边栏头像</h3><p>NexT 配置文件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">avatar:</span><br><span class="line">  url: http:&#x2F;&#x2F;q1.qlogo.cn&#x2F;g?b&#x3D;qq&amp;nk&#x3D;83763136&amp;s&#x3D;640</span><br><span class="line">  # If true, the avatar would be dispalyed in circle.</span><br><span class="line">  rounded: true</span><br><span class="line">  # If true, the avatar would be rotated with the cursor.</span><br><span class="line">  rotated: true</span><br></pre></td></tr></table></figure>
+<h3 id="侧边栏社交连接-NexT官方自带"><a href="#侧边栏社交连接-NexT官方自带" class="headerlink" title="侧边栏社交连接(NexT官方自带)"></a>侧边栏社交连接(NexT官方自带)</h3><h3 id="开启评论功能-基于next主题"><a href="#开启评论功能-基于next主题" class="headerlink" title="开启评论功能(基于next主题)"></a>开启评论功能(基于next主题)</h3><h3 id="谷歌百度收录"><a href="#谷歌百度收录" class="headerlink" title="谷歌百度收录"></a>谷歌百度收录</h3><h3 id="帖子十六进制"><a href="#帖子十六进制" class="headerlink" title="帖子十六进制"></a>帖子十六进制</h3><h3 id="开启赞赏（NexT官方自带）"><a href="#开启赞赏（NexT官方自带）" class="headerlink" title="开启赞赏（NexT官方自带）"></a>开启赞赏（NexT官方自带）</h3><h3 id="友情链接（NexT）（暂时不需）"><a href="#友情链接（NexT）（暂时不需）" class="headerlink" title="友情链接（NexT）（暂时不需）"></a>友情链接（NexT）（暂时不需）</h3><h3 id="腾讯公益404页面（NexT）"><a href="#腾讯公益404页面（NexT）" class="headerlink" title="腾讯公益404页面（NexT）"></a>腾讯公益404页面（NexT）</h3><h3 id="站点建立时间（NexT）"><a href="#站点建立时间（NexT）" class="headerlink" title="站点建立时间（NexT）"></a>站点建立时间（NexT）</h3><h3 id="博客置顶设置（暂时不需）"><a href="#博客置顶设置（暂时不需）" class="headerlink" title="博客置顶设置（暂时不需）"></a>博客置顶设置（暂时不需）</h3><h3 id="文章底部版权信息"><a href="#文章底部版权信息" class="headerlink" title="文章底部版权信息"></a>文章底部版权信息</h3><h3 id="Hexo博文加密"><a href="#Hexo博文加密" class="headerlink" title="Hexo博文加密"></a>Hexo博文加密</h3><p><a href="https://blog.csdn.net/crazy_scott/article/details/80996427">https://blog.csdn.net/crazy_scott/article/details/80996427</a></p>
+<h3 id="BY-NC-SA-许可"><a href="#BY-NC-SA-许可" class="headerlink" title="BY-NC-SA 许可"></a>BY-NC-SA 许可</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a rel&#x3D;&quot;license&quot; href&#x3D;&quot;http:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-nc-sa&#x2F;4.0&#x2F;&quot;&gt;&lt;img alt&#x3D;&quot;知识共享许可协议&quot; style&#x3D;&quot;border-width:0&quot; src&#x3D;&quot;https:&#x2F;&#x2F;i.creativecommons.org&#x2F;l&#x2F;by-nc-sa&#x2F;4.0&#x2F;80x15.png&quot; &#x2F;&gt;&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="相关文章"><a href="#相关文章" class="headerlink" title="相关文章"></a>相关文章</h3><p><a href="https://github.com/tea3/hexo-related-popular-posts">https://github.com/tea3/hexo-related-popular-posts</a></p>
+<h3 id="页面底部"><a href="#页面底部" class="headerlink" title="页面底部"></a>页面底部</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;div style&#x3D;&quot;text-align:center;&quot;&gt;</span><br><span class="line">&lt;hr &#x2F;&gt;</span><br><span class="line">&lt;a href&#x3D;&quot;http:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-nc-sa&#x2F;4.0&#x2F;&quot;&gt;&lt;img alt&#x3D;&quot;知识共享许可协议&quot; src&#x3D;&quot;https:&#x2F;&#x2F;i.creativecommons.org&#x2F;l&#x2F;by-nc-sa&#x2F;4.0&#x2F;88x31.png&quot; &#x2F;&gt;&lt;&#x2F;a&gt; </span><br><span class="line">本博客文章（除特别声明外）均采用 &lt;a href&#x3D;&quot;https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-nc-sa&#x2F;4.0&#x2F;deed.zh&quot;&gt;知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议&lt;&#x2F;a&gt; 进行许可，转载请注明出处！</span><br><span class="line">&lt;&#x2F;div&gt;</span><br></pre></td></tr></table></figure>
+<p>next\layout_partials\footer.njk</p>
+]]></content>
+      <categories>
+        <category>博客建设</category>
+      </categories>
+  </entry>
+</search>

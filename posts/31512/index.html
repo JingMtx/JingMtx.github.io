@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,300italic,400,400italic,700,700italic%7CFira+Code:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","images":"/images","scheme":"Mist","version":"8.2.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+  </script>
+<meta name="description" content="本文收录截止目前本站使用的所有第三方插件。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于本站点建设所使用的第三方代码">
+<meta property="og:url" content="http://example.com/posts/31512/index.html">
+<meta property="og:site_name" content="京明の闲言碎语">
+<meta property="og:description" content="本文收录截止目前本站使用的所有第三方插件。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-02-13T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-02-14T10:25:53.804Z">
+<meta property="article:author" content="京明同学_LiJM">
+<meta property="article:tag" content="keywords">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://example.com/posts/31512/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+<title>关于本站点建设所使用的第三方代码 | 京明の闲言碎语</title>
+  
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">京明の闲言碎语</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">subtitle</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%B3%E4%B8%8A%E6%A0%87%E7%AD%BE%E2%88%9A"><span class="nav-number">1.</span> <span class="nav-text">右上标签√</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%90%9C%E7%B4%A2%E6%9C%8D%E5%8A%A1%E2%88%9A"><span class="nav-number">2.</span> <span class="nav-text">搜索服务√</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E4%BD%93%E2%88%9A"><span class="nav-number">3.</span> <span class="nav-text">字体√</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BD%91%E7%AB%99%E5%9C%B0%E5%9B%BE"><span class="nav-number">4.</span> <span class="nav-text">网站地图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ICO"><span class="nav-number">5.</span> <span class="nav-text">ICO</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%A4%B4%E5%83%8F"><span class="nav-number">6.</span> <span class="nav-text">侧边栏头像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%A4%BE%E4%BA%A4%E8%BF%9E%E6%8E%A5-NexT%E5%AE%98%E6%96%B9%E8%87%AA%E5%B8%A6"><span class="nav-number">7.</span> <span class="nav-text">侧边栏社交连接(NexT官方自带)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%80%E5%90%AF%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD-%E5%9F%BA%E4%BA%8Enext%E4%B8%BB%E9%A2%98"><span class="nav-number">8.</span> <span class="nav-text">开启评论功能(基于next主题)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B0%B7%E6%AD%8C%E7%99%BE%E5%BA%A6%E6%94%B6%E5%BD%95"><span class="nav-number">9.</span> <span class="nav-text">谷歌百度收录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%96%E5%AD%90%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6"><span class="nav-number">10.</span> <span class="nav-text">帖子十六进制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%80%E5%90%AF%E8%B5%9E%E8%B5%8F%EF%BC%88NexT%E5%AE%98%E6%96%B9%E8%87%AA%E5%B8%A6%EF%BC%89"><span class="nav-number">11.</span> <span class="nav-text">开启赞赏（NexT官方自带）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5%EF%BC%88NexT%EF%BC%89%EF%BC%88%E6%9A%82%E6%97%B6%E4%B8%8D%E9%9C%80%EF%BC%89"><span class="nav-number">12.</span> <span class="nav-text">友情链接（NexT）（暂时不需）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%85%BE%E8%AE%AF%E5%85%AC%E7%9B%8A404%E9%A1%B5%E9%9D%A2%EF%BC%88NexT%EF%BC%89"><span class="nav-number">13.</span> <span class="nav-text">腾讯公益404页面（NexT）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AB%99%E7%82%B9%E5%BB%BA%E7%AB%8B%E6%97%B6%E9%97%B4%EF%BC%88NexT%EF%BC%89"><span class="nav-number">14.</span> <span class="nav-text">站点建立时间（NexT）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E7%BD%AE%E9%A1%B6%E8%AE%BE%E7%BD%AE%EF%BC%88%E6%9A%82%E6%97%B6%E4%B8%8D%E9%9C%80%EF%BC%89"><span class="nav-number">15.</span> <span class="nav-text">博客置顶设置（暂时不需）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E5%BA%95%E9%83%A8%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF"><span class="nav-number">16.</span> <span class="nav-text">文章底部版权信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo%E5%8D%9A%E6%96%87%E5%8A%A0%E5%AF%86"><span class="nav-number">17.</span> <span class="nav-text">Hexo博文加密</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#BY-NC-SA-%E8%AE%B8%E5%8F%AF"><span class="nav-number">18.</span> <span class="nav-text">BY-NC-SA 许可</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%B8%E5%85%B3%E6%96%87%E7%AB%A0"><span class="nav-number">19.</span> <span class="nav-text">相关文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A1%B5%E9%9D%A2%E5%BA%95%E9%83%A8"><span class="nav-number">20.</span> <span class="nav-text">页面底部</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="京明同学_LiJM"
+      src="http://q1.qlogo.cn/g?b=qq&nk=83763136&s=640">
+  <p class="site-author-name" itemprop="name">京明同学_LiJM</p>
+  <div class="site-description" itemprop="description">description</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/posts/31512/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="http://q1.qlogo.cn/g?b=qq&nk=83763136&s=640">
+      <meta itemprop="name" content="京明同学_LiJM">
+      <meta itemprop="description" content="description">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="京明の闲言碎语">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          关于本站点建设所使用的第三方代码
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-02-14 00:00:00 / 修改时间：18:25:53" itemprop="dateCreated datePublished" datetime="2021-02-14T00:00:00+08:00">2021-02-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/" itemprop="url" rel="index"><span itemprop="name">博客建设</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p><em>本文收录截止目前本站使用的所有第三方插件。</em></p>
+<a id="more"></a>
+<hr>
+<p>NexT 官方说明：<a target="_blank" rel="noopener" href="http://theme-next.iissnan.com/theme-settings.html">http://theme-next.iissnan.com/theme-settings.html</a></p>
+<h3 id="右上标签√"><a href="#右上标签√" class="headerlink" title="右上标签√"></a>右上标签√</h3><pre><code>menu:
+</code></pre>
+<h3 id="搜索服务√"><a href="#搜索服务√" class="headerlink" title="搜索服务√"></a>搜索服务√</h3><pre><code>$ npm install hexo-generator-searchdb --save
+</code></pre>
+<p>Hexo 配置文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Configration for Theme-Next</span><br><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 20</span><br></pre></td></tr></table></figure>
+<p>NexT 配置文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line">  # if auto, trigger search by changing input</span><br><span class="line">  # if manual, trigger search by pressing enter key or search button</span><br><span class="line">  trigger: auto</span><br></pre></td></tr></table></figure>
+<h3 id="字体√"><a href="#字体√" class="headerlink" title="字体√"></a>字体√</h3><pre><code>font:
+</code></pre>
+<h3 id="网站地图"><a href="#网站地图" class="headerlink" title="网站地图"></a>网站地图</h3><h3 id="ICO"><a href="#ICO" class="headerlink" title="ICO"></a>ICO</h3><p><a target="_blank" rel="noopener" href="https://fontawesome.dashgame.com/">https://fontawesome.dashgame.com/</a></p>
+<h3 id="侧边栏头像"><a href="#侧边栏头像" class="headerlink" title="侧边栏头像"></a>侧边栏头像</h3><p>NexT 配置文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">avatar:</span><br><span class="line">  url: http:&#x2F;&#x2F;q1.qlogo.cn&#x2F;g?b&#x3D;qq&amp;nk&#x3D;83763136&amp;s&#x3D;640</span><br><span class="line">  # If true, the avatar would be dispalyed in circle.</span><br><span class="line">  rounded: true</span><br><span class="line">  # If true, the avatar would be rotated with the cursor.</span><br><span class="line">  rotated: true</span><br></pre></td></tr></table></figure>
+<h3 id="侧边栏社交连接-NexT官方自带"><a href="#侧边栏社交连接-NexT官方自带" class="headerlink" title="侧边栏社交连接(NexT官方自带)"></a>侧边栏社交连接(NexT官方自带)</h3><h3 id="开启评论功能-基于next主题"><a href="#开启评论功能-基于next主题" class="headerlink" title="开启评论功能(基于next主题)"></a>开启评论功能(基于next主题)</h3><h3 id="谷歌百度收录"><a href="#谷歌百度收录" class="headerlink" title="谷歌百度收录"></a>谷歌百度收录</h3><h3 id="帖子十六进制"><a href="#帖子十六进制" class="headerlink" title="帖子十六进制"></a>帖子十六进制</h3><h3 id="开启赞赏（NexT官方自带）"><a href="#开启赞赏（NexT官方自带）" class="headerlink" title="开启赞赏（NexT官方自带）"></a>开启赞赏（NexT官方自带）</h3><h3 id="友情链接（NexT）（暂时不需）"><a href="#友情链接（NexT）（暂时不需）" class="headerlink" title="友情链接（NexT）（暂时不需）"></a>友情链接（NexT）（暂时不需）</h3><h3 id="腾讯公益404页面（NexT）"><a href="#腾讯公益404页面（NexT）" class="headerlink" title="腾讯公益404页面（NexT）"></a>腾讯公益404页面（NexT）</h3><h3 id="站点建立时间（NexT）"><a href="#站点建立时间（NexT）" class="headerlink" title="站点建立时间（NexT）"></a>站点建立时间（NexT）</h3><h3 id="博客置顶设置（暂时不需）"><a href="#博客置顶设置（暂时不需）" class="headerlink" title="博客置顶设置（暂时不需）"></a>博客置顶设置（暂时不需）</h3><h3 id="文章底部版权信息"><a href="#文章底部版权信息" class="headerlink" title="文章底部版权信息"></a>文章底部版权信息</h3><h3 id="Hexo博文加密"><a href="#Hexo博文加密" class="headerlink" title="Hexo博文加密"></a>Hexo博文加密</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/crazy_scott/article/details/80996427">https://blog.csdn.net/crazy_scott/article/details/80996427</a></p>
+<h3 id="BY-NC-SA-许可"><a href="#BY-NC-SA-许可" class="headerlink" title="BY-NC-SA 许可"></a>BY-NC-SA 许可</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a rel&#x3D;&quot;license&quot; href&#x3D;&quot;http:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-nc-sa&#x2F;4.0&#x2F;&quot;&gt;&lt;img alt&#x3D;&quot;知识共享许可协议&quot; style&#x3D;&quot;border-width:0&quot; src&#x3D;&quot;https:&#x2F;&#x2F;i.creativecommons.org&#x2F;l&#x2F;by-nc-sa&#x2F;4.0&#x2F;80x15.png&quot; &#x2F;&gt;&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="相关文章"><a href="#相关文章" class="headerlink" title="相关文章"></a>相关文章</h3><p><a target="_blank" rel="noopener" href="https://github.com/tea3/hexo-related-popular-posts">https://github.com/tea3/hexo-related-popular-posts</a></p>
+<h3 id="页面底部"><a href="#页面底部" class="headerlink" title="页面底部"></a>页面底部</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;div style&#x3D;&quot;text-align:center;&quot;&gt;</span><br><span class="line">&lt;hr &#x2F;&gt;</span><br><span class="line">&lt;a href&#x3D;&quot;http:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-nc-sa&#x2F;4.0&#x2F;&quot;&gt;&lt;img alt&#x3D;&quot;知识共享许可协议&quot; src&#x3D;&quot;https:&#x2F;&#x2F;i.creativecommons.org&#x2F;l&#x2F;by-nc-sa&#x2F;4.0&#x2F;88x31.png&quot; &#x2F;&gt;&lt;&#x2F;a&gt; </span><br><span class="line">本博客文章（除特别声明外）均采用 &lt;a href&#x3D;&quot;https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-nc-sa&#x2F;4.0&#x2F;deed.zh&quot;&gt;知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议&lt;&#x2F;a&gt; 进行许可，转载请注明出处！</span><br><span class="line">&lt;&#x2F;div&gt;</span><br></pre></td></tr></table></figure>
+<p>next\layout_partials\footer.njk</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/posts/1270/" rel="prev" title="Hexo 的指令">
+                  <i class="fa fa-chevron-left"></i> Hexo 的指令
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/posts/10811/" rel="next" title="Markdown 基本语法">
+                  Markdown 基本语法 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">京明同学_LiJM</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a>
+  </div>
+
+<div style="text-align:center;">
+<hr />
+<a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a> 
+本博客文章（除特别声明外）均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a> 进行许可，转载请注明出处！
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
